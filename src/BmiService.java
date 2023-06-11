@@ -1,6 +1,6 @@
 public class BmiService {
-    public int calculate(double rost, int ves) {
-        int result = (int) (ves / Math.pow(rost, 2));
+    public int calculate(double height, int weight) {
+        int result = (int) (weight / Math.pow(height, 2));
         return result;
     }
 }
